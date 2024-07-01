@@ -10,7 +10,7 @@
     <br>
 <p1>This is my GITHUB repository </p1
 ><br>
-<p2>Author: Karan Prasad</p2>
+<p2>Author: Karan Singh</p2>
 
 
 </body>
