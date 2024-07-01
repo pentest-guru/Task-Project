@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Business Strategies Best</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        li {
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #f8c146;
+        }
+
+        .header,
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .services-container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .services-container h1 {
+            margin-bottom: 40px;
+            color: #333;
+            text-align: center;
+        }
+
+        .service-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .service-item img {
+            max-width: 150px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .service-item h2 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .service-item p {
+            margin: 0;
+            color: #666;
+        }
+
+        .contact-form {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services-container">
+            <h1>Our Services</h1>
+            <div class="service-item">
+                <img src="path_to_image1.jpg" alt="Service 1">
+                <div>
+                    <h2>Market Research</h2>
+                    <p>Market research and analysis involve collecting, analyzing, and interpreting data about a market,
+                        including information about target audiences, competitors, and industry trends. This service
+                        helps businesses understand their market environment, identify opportunities and threats, and
+                        make informed decisions.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="path_to_image2.jpg" alt="Service 2">
+                <div>
+                    <h3><b>Business Process Optimizations</b></h3>
+                    <p>Business process optimization focuses on analyzing and improving the efficiency and effectiveness
+                        of business processes. This service aims to streamline operations, reduce costs, and improve
+                        overall productivity by identifying bottlenecks, eliminating redundancies, and implementing best
+                        practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Inquire About Our Services</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Business Strategies Best. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
