@@ -6,8 +6,10 @@
 
 </head>
 <body>
-    <h><b>PENTESTGURU</b></h><br>
-<p1>This is my GITHUB repository </p1>
+    <h><b>PENTESTGURU</b></h>
+    <br>
+<p1>This is my GITHUB repository </p1
+><br>
 <p2>Author: Karan Prasad</p2>
 
 
